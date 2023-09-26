@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Orange HRM Suite">
+    <test verbose="2" preserve-order="true" name="C:/project_incubation/ProjectIncubation">
+        <classes>
+            <class name="orangehrm.testcases.TC001_VerifyLoginHRM">
+                <methods><include name="runLogin"/></methods></class>
+        </classes>
+    </test>
+</suite>
